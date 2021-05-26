@@ -171,3 +171,4 @@ _Creating your own log files_
 You're not probably going to need to, for robotframework creates it own log and report out of the box , but in the case that you need to log some text to a file then try following the guide i created.
 
 
+robot -d results -V BROWSER:Chrome -i sample test
