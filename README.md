@@ -48,7 +48,7 @@ To run test on Chrome Please go to current Directory and run:
 
 > robot -d results -V BROWSER:Chrome -i sample test
 
-To run test on Chrome Please go to current Directory and run:
+To run test on Firefox Please go to current Directory and run:
 
 > robot -d results -V BROWSER:Firefox -i sample test
 
