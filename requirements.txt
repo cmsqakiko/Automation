@@ -1,5 +1,7 @@
 #Libraries
 robotframework
 robotframework-seleniumlibrary
+robotframework-faker
 selenium
 pyYAML
+Faker

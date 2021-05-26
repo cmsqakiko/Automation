@@ -1,6 +1,4 @@
-url:
-  main                                        : "https://login.optimyapp.com/"
-
+#Yaml file for locators for a single pager
 login:
   container                                   : "css= #tab-login"
   username:
@@ -10,8 +8,14 @@ login:
     main                                      : "css= #tab-login input[name='password']"
     error                                     : "css= #tab-login span[for='password']"
   submit:
-    main                                      : "css= #tab-login button[type='submit']"                
+    main                                      : "css= #tab-login button[type='submit']"
 
+modal:
+  main                                        : "css= #tab-login #login-invalid"
+
+url:
+  main                                        : "https://login.optimyapp.com/"
+           
 xss-lib:
   - "<img src='logout'/>"
   - "<SCRIPT SRC=http://xss.rocks/xss.js></SCRIPT>"

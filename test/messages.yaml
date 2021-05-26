@@ -1,0 +1,12 @@
+#Yaml file for translations found on a single pager
+messages:
+  login:
+    password:
+      empty                           : "This field is required."
+      modal_wrong                     : "The email address or password is incorrect."
+      wrong                           : "The email address or password is incorrect."
+    username:
+      empty                           : "This field is required."
+      less                            : "Please enter a valid email address (e.g.: john.smith@gmail.com)."
+      more                            : "Please enter a valid email address (e.g.: john.smith@gmail.com)."
+      wrong                           : "Please enter a valid email address (e.g.: john.smith@gmail.com)."
