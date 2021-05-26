@@ -27,6 +27,7 @@ After Downloading the latest webdriver for your browser, add the webdriver file 
 
 ---
 **Running this robotframework test**
+
 Please Install the required packages.
 
 **Linux:** `pip3 install -r requirements.txt`
@@ -49,7 +50,7 @@ To run test on Chrome Please go to current Directory and run:
 
 To run test on Chrome Please go to current Directory and run:
 
-> robot -d results -V BROWSER:Chrome -i sample test
+> robot -d results -V BROWSER:Firefox -i sample test
 
 
 **_PLEASE NOTE_**
