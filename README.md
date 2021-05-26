@@ -17,20 +17,6 @@ Robot Framework itself is open source software released under Apache License 2.0
 For more information about [robotframework](https://robotframework.org/) and its inner workings, [click here.](https://robotframework.org/)
 
 
----
-
-**Linux:** `pip3 install -r requirements.txt`
-
-**Windows:** `pip install -r requirements.txt`
-<!-- 
-_For Reference, below are the dependencies the command above will install on your machine_
-* robotframework
-* robotframework-seleniumlibrary
-* robotframework-faker
-* selenium
-* pyYAML
-Faker-->
-
 
 ---
 **Downloading and Setting up Web Drivers.**
@@ -41,7 +27,31 @@ After Downloading the latest webdriver for your browser, add the webdriver file 
 
 ---
 **Running this robotframework test**
+Please Install the required packages.
 
+**Linux:** `pip3 install -r requirements.txt`
+
+**Windows:** `pip install -r requirements.txt`
+
+Make Sure You have python installed and a webdriver that can be downloaded using this link [here.](https://www.seleniumhq.org/download/)
+
+<!-- 
+_For Reference, below are the dependencies the command above will install on your machine_
+* robotframework
+* robotframework-seleniumlibrary
+* robotframework-faker
+* selenium
+* pyYAML
+Faker-->
+
+To run test on Chrome Please go to current Directory and run:
+
+> robot -d results -V BROWSER:Chrome -i sample test
+
+To run test on Chrome Please go to current Directory and run:
+
+
+> robot -d results -V BROWSER:Chrome -i sample test
 
 
 ---
