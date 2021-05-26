@@ -35,14 +35,13 @@ Please Install the required packages.
 
 Make Sure You have python installed and a webdriver that can be downloaded using this link [here.](https://www.seleniumhq.org/download/)
 
-<!-- 
 _For Reference, below are the dependencies the command above will install on your machine_
 * robotframework
 * robotframework-seleniumlibrary
 * robotframework-faker
 * selenium
 * pyYAML
-Faker-->
+* Faker
 
 To run test on Chrome Please go to current Directory and run:
 
@@ -50,9 +49,16 @@ To run test on Chrome Please go to current Directory and run:
 
 To run test on Chrome Please go to current Directory and run:
 
-
 > robot -d results -V BROWSER:Chrome -i sample test
 
+
+**_PLEASE NOTE_**
+* Update your RobotFramework to later version. New Implementation for conditional IF ELSE statement is added here.
+* testing may give you warning about the minimum and maximum allowed characters in username and password filed
+* Developer should work more on validating allowed characters on login page.
+* Please check on warning message.
+> Validation for Minimum and Maximum allowed Character is not available. Please ask Dev to fix
+ 
 
 ---
 **_Advanced Implementations_**
@@ -60,6 +66,3 @@ To run test on Chrome Please go to current Directory and run:
 _Creating your own log files_
 
 You're not probably going to need to, for robotframework creates it own log and report out of the box , but in the case that you need to log some text to a file then try following the guide i created.
-
-
-robot -d results -V BROWSER:Chrome -i sample test
