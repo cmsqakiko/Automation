@@ -55,8 +55,9 @@ To run test on Firefox Please go to current Directory and run:
 
 **_PLEASE NOTE_**
 * Update your RobotFramework to later version. New Implementation for conditional IF ELSE statement is added here.
+* Cannot Test Login Page using a real registered account (account limitation)
 * testing may give you warning about the minimum and maximum allowed characters in username and password filed
-* Developer should work more on validating allowed characters on login page.
+* Developer should work more on validating allowed characters on login page. This Should fail on Real Environment.
 * Please check on warning message.
 > Validation for Minimum and Maximum allowed Character is not available. Please ask Dev to fix
  

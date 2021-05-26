@@ -14,6 +14,7 @@ Variables												messages.yaml
 Open Website
     [Documentation]                                     Opens a Browser
     Open Browser                                        ${url}[main]                  	${BROWSER}
+    Maximize Browser Window
 	#Adding Static Sleep to wait for the browser to open
 	Sleep                                               3s
 
