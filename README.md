@@ -46,11 +46,11 @@ _For Reference, below are the dependencies the command above will install on you
 
 To run test on Chrome Please go to current Directory and run:
 
-> robot -d results -V BROWSER:Chrome -i sample test
+> robot -d results -v BROWSER:Chrome -i sample test
 
 To run test on Firefox Please go to current Directory and run:
 
-> robot -d results -V BROWSER:Firefox -i sample test
+> robot -d results -v BROWSER:Firefox -i sample test
 
 
 **_PLEASE NOTE_**
